@@ -13,36 +13,48 @@
             <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
             <meta name="msapplication-TileColor" content="#00aba9">
             <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./main.css">
+                
+            
+     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <header>
-            <img src="./logo (2).png" alt="logo">
+    <header class="container main-header">
+            <img class="logo" src="./img/logo (2).png" alt="logo">
 
-            <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Job</a>
-            <a href="#">Contactc</a>
+            <nav class="main-nav">
+                 <a class="link" href="#">About</a>
+                <a class="link" href="#">Portfolio</a>
+                <a class="link" href="#">Job</a>
+                <a class="link" href="#">Contactc</a>
             </nav>
           
     </header>
 
-    <main>
-        <div>
-            <h1>404 Lost in space</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, recusandae error neque possimus quaerat nostrum fugit provident laudantium expedita tempora. Veniam dolorum eaque doloremque.</p>
-            <div>
-            <a href="#">Go home</a>
-            <a href="#">Back</a>
+    <main class="container main-content">
+        <div class="left-column ">
+            <h1 class="main-title" ><span>404</span>Lost in space</h1>
+
+            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, recusandae error neque possimus quaerat nostrum fugit provident laudantium expedita tempora. Veniam dolorum eaque doloremque.</p>
+            <div class="button-group">
+            <a class="button" href="#">Go home</a>
+            <a class="button" href="#">Back</a>
             </div>
         </div>
-        <img src="./astronautas.webp" alt="astronautas su tlf">  
+        <img class="right-column" src="./img/astronautas.webp" alt="astronautas su tlf">  
     </main>
 
-    <footer>
-        footer content
+    <footer class="container main-footer">
+        <div class="socials">
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+
+            <a href="#" target="_blank">FB</a>
+            <a href="#" target="_blank">TW</a>
+            <a href="#" target="_blank">IG</a>
+            <a href="#" target="_blank">LN</a>
+        </div>
+        <p class="copy-right">	&copy; 2023 - All rights reserved</p>
     </footer>
 </body>
 
