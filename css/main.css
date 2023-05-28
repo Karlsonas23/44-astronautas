@@ -119,13 +119,32 @@ color: #555;
 }
 
 .main-footer{
-    background-color: lightskyblue;
 }
 .socials {
+    display: flex;
+    font-size: 20px;
+    gap: 1em ;
+    flex-wrap: wrap;
 
+
+}
+.socials > .social-link {
+    width: 1em;
+    height: 1em;
+    font-size: inherit;
+    line-height: 1em;
+    text-align: center;
+    color: grey;
+    text-decoration: none;
 }
 .copy-right{
     
+}
+.socials > .social-link:hover {
+  
+    color: rebeccapurple;
+    margin: -0.25em;
+    font-size: 2em;
 }
 /* 
 main> p{
